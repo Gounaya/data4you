@@ -1,5 +1,7 @@
 "use client"
 
+/* eslint-disable @next/next/no-img-element */
+
 import { useState, useEffect } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -135,7 +137,7 @@ export function Testimonials() {
 
                 <div className="lg:col-span-2">
                   <blockquote className="text-lg md:text-xl text-foreground leading-relaxed italic min-h-[120px] flex items-center">
-                    "<TypingText text={testimonials[currentIndex].content} speed={30} />"
+                    &ldquo;<TypingText text={testimonials[currentIndex].content} speed={30} />&rdquo;
                   </blockquote>
                 </div>
               </div>

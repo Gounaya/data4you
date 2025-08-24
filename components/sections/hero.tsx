@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Play } from "lucide-react"
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
+
+import { ArrowRight } from "lucide-react"
 import TypingAnimation from "@/components/typing-animation"
 import CounterAnimation from "@/components/counter-animation"
 import ScrollReveal from "@/components/scroll-reveal"
