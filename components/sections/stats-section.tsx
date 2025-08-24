@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import { Users, Target, Lightbulb, Heart } from "lucide-react"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion, AnimatePresence, Variants } from "framer-motion"
 
 function AnimatedCounter({
   value,
@@ -90,12 +90,16 @@ export function StatsSection() {
   ]
 
   // Variants propres et réutilisables
-  const fadeUp = {
+  const fadeUp: Variants = {
     hidden: { opacity: 0, y: 24 },
     show: (i = 0) => ({
       opacity: 1,
       y: 0,
-      transition: { delay: i * 0.12, duration: 0.5, ease: [0.22, 1, 0.36, 1] },
+      transition: {
+        delay: i * 0.12,
+        duration: 0.5,
+        ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
+      },
     }),
   }
 

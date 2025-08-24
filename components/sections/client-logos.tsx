@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 export function ClientLogos() {
   const logos = [
     { name: "AXA", src: "/Logo_AXA.png" },
