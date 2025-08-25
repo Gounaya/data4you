@@ -99,7 +99,6 @@ export function Contact() {
   const [formData, setFormData] = useState({
     nom: "",
     email: "",
-    societe: "",
     telephone: "",
     message: "",
   })
@@ -113,7 +112,7 @@ export function Contact() {
     setIsSubmitting(false)
     setSubmitStatus("success")
     setTimeout(() => {
-      setFormData({ nom: "", email: "", societe: "", telephone: "", message: "" })
+      setFormData({ nom: "", email: "", telephone: "", message: "" })
       setSubmitStatus("idle")
     }, 3000)
   }
@@ -148,7 +147,7 @@ export function Contact() {
           {/* Formulaire */}
           <Card className="group hover:shadow-2xl transition-all duration-500 bg-background/80 backdrop-blur-sm">
             <CardContent className="p-8">
-              <h3 className="text-xl font-semibold font-serif text-foreground mb-6">Demander un audit gratuit</h3>
+              <h3 className="text-xl font-semibold font-serif text-foreground mb-6">Envoyez un message</h3>
               {submitStatus === "success" && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center space-x-2">
                   <CheckCircle className="w-5 h-5 text-green-600" />
@@ -160,12 +159,11 @@ export function Contact() {
                   <FloatingLabelInput label="Nom" required value={formData.nom} onChange={(e) => setFormData({ ...formData, nom: e.target.value })} />
                   <FloatingLabelInput label="Email" type="email" required value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
                 </div>
-                <FloatingLabelInput label="Société" value={formData.societe} onChange={(e) => setFormData({ ...formData, societe: e.target.value })} />
-                <FloatingLabelInput label="Téléphone" type="tel" value={formData.telephone} onChange={(e) => setFormData({ ...formData, telephone: e.target.value })} />
-                <FloatingLabelTextarea label="Décrivez votre projet ou vos besoins..." required value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} />
+                <FloatingLabelInput label="Téléphone" type="tel" required value={formData.telephone} onChange={(e) => setFormData({ ...formData, telephone: e.target.value })} />
+                <FloatingLabelTextarea label="Votre message" required value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} />
 
                 <Button type="submit" className="w-full" disabled={isSubmitting}>
-                  {isSubmitting ? "Envoi en cours..." : "Envoyer ma demande"}
+                  {isSubmitting ? "Envoi en cours..." : "Envoyer le message"}
                   {!isSubmitting && <Send className="ml-2 w-4 h-4" />}
                 </Button>
               </form>
