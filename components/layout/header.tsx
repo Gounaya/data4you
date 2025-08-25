@@ -8,10 +8,8 @@ import Image from "next/image"
 
 const navigationItems = [
   { href: "#services", label: "Services" },
-  { href: "#sectors", label: "Secteurs" },
-  { href: "#case-studies", label: "Références" },
-  { href: "#team", label: "Équipe" },
-  { href: "#careers", label: "Carrières" },
+  { href: "#clients", label: "Clients" },
+  { href: "#principes", label: "Principes" },
   { href: "#contact", label: "Contact" },
 ]
 
