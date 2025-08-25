@@ -74,15 +74,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-background/60 text-sm">© 2024 Data4You. Tous droits réservés.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-background/60 hover:text-background text-sm transition-colors">
-              Mentions légales
-            </a>
-            <a href="#" className="text-background/60 hover:text-background text-sm transition-colors">
-              Politique de confidentialité
-            </a>
-          </div>
+          <p className="text-background/60 text-sm">© 2025 Data4You. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
