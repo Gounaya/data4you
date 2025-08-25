@@ -65,9 +65,9 @@ export function Footer() {
               <p>06.04.34.34.34</p>
               <p>contact@data4you.com</p>
               <p>
-                10 allée du chateau blanc
+                1-3, 1 ALLEE LAVOISIER
                 <br />
-                59190 Wasquehal
+                59650 VILLENEUVE-D'ASCQ
               </p>
             </div>
           </div>
