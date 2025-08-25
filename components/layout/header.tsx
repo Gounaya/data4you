@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Linkedin } from "lucide-react"
 import Image from "next/image"
 
 const navigationItems = [
@@ -58,8 +58,17 @@ export function Header() {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:flex">
+          {/* Social Link & CTA Button */}
+          <div className="hidden md:flex items-center space-x-4">
+            <a
+              href="https://www.linkedin.com/company/data4yo/about/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
             <Button asChild className="bg-primary hover:bg-primary/90 px-6 py-3 text-base">
               <Link href="#contact">Nous contacter</Link>
             </Button>
@@ -99,6 +108,17 @@ export function Header() {
                     Nous contacter
                   </Link>
                 </Button>
+              </div>
+              <div className="px-4 pt-4 flex justify-center">
+                <a
+                  href="https://www.linkedin.com/company/data4yo/about/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
               </div>
             </nav>
           </div>
