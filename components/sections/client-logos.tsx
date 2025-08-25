@@ -14,7 +14,7 @@ export function ClientLogos() {
   ]
 
   return (
-    <section className="py-16 bg-muted/30">
+    <section id="clients" className="py-16 bg-muted/30 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl font-semibold font-serif text-foreground mb-2">Ils nous font confiance</h2>

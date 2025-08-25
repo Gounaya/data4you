@@ -104,7 +104,7 @@ export function StatsSection() {
   }
 
   return (
-    <section id="team" className="py-24 bg-background">
+    <section id="principes" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         {/* ==== STATS ==== */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-16">

@@ -3,19 +3,16 @@ import Image from "next/image"
 
 export function Footer() {
   const quickLinks = [
-    { name: "Services", href: "#services" },
-    { name: "Enjeux métier", href: "#business-challenges" },
-    { name: "Secteurs", href: "#sectors" },
-    { name: "Études de cas", href: "#case-studies" },
-    { name: "Carrières", href: "#careers" },
-    { name: "Contact", href: "#contact" },
+    { href: "#services", name: "Services" },
+    { href: "#clients", name: "Clients" },
+    { href: "#principes", name: "Principes" },
+    { href: "#contact", name: "Contact" },
   ]
 
   const socialLinks = [
     { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Twitter, href: "#", label: "X (Twitter)" },
-    { icon: Youtube, href: "#", label: "YouTube" },
   ]
 
   return (
