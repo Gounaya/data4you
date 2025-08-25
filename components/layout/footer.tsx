@@ -1,4 +1,4 @@
-import { Linkedin, Github, Twitter, Youtube } from "lucide-react"
+import { Linkedin, Github, Twitter } from "lucide-react"
 import Image from "next/image"
 
 export function Footer() {
@@ -10,7 +10,7 @@ export function Footer() {
   ]
 
   const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/data4yo/about/", label: "LinkedIn" },
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Twitter, href: "#", label: "X (Twitter)" },
   ]
