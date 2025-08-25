@@ -19,7 +19,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <ScrollReveal className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-serif text-foreground mb-6">
+          <h1 className="mt-16 text-4xl md:text-6xl lg:text-7xl font-bold font-serif text-foreground mb-6">
             Accélérez vos projets{" "}
             <span className="text-primary">
               <TypingAnimation
