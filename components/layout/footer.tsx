@@ -67,7 +67,7 @@ export function Footer() {
               <p>
                 1-3, 1 ALLEE LAVOISIER
                 <br />
-                59650 VILLENEUVE-D'ASCQ
+                59650 VILLENEUVE-D&apos;ASCQ
               </p>
             </div>
           </div>
