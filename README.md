@@ -29,8 +29,6 @@ BREVO_API_KEY=your_brevo_api_key
 BREVO_SENDER_EMAIL=your_verified_sender@example.com
 ```
 
-Brevo offers a free tier (300 emails/day) and will forward all submissions to `osm.gouna@gmail.com`.
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
