@@ -183,7 +183,7 @@ export function Contact() {
                   </div>
                   <div className="flex items-center p-3 rounded-lg hover:bg-muted/50 transition-all">
                     <Mail className="w-5 h-5 text-primary mr-3" />
-                    <span className="text-foreground font-medium">contact@data4you.com</span>
+                    <span className="text-foreground font-medium">y.lori@data4you.fr</span>
                   </div>
                   <div className="flex items-start p-3 rounded-lg hover:bg-muted/50 transition-all">
                     <MapPin className="w-5 h-5 text-primary mr-3 mt-0.5" />
