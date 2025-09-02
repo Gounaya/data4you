@@ -179,7 +179,7 @@ export function Contact() {
                 <div className="space-y-6">
                   <div className="flex items-center p-3 rounded-lg hover:bg-muted/50 transition-all">
                     <Phone className="w-5 h-5 text-primary mr-3" />
-                    <span className="text-foreground font-medium">06.04.34.34.34</span>
+                    <span className="text-foreground font-medium">06.63.47.25.45</span>
                   </div>
                   <div className="flex items-center p-3 rounded-lg hover:bg-muted/50 transition-all">
                     <Mail className="w-5 h-5 text-primary mr-3" />
