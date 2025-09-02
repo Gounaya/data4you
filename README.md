@@ -20,6 +20,17 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Contact form setup
+
+The `/api/contact` route sends messages through [Brevo](https://www.brevo.com/)'s transactional email API. To receive emails from the contact form, create a `.env` file based on `.env.example` and provide your Brevo API key and a verified sender address:
+
+```bash
+BREVO_API_KEY=your_brevo_api_key
+BREVO_SENDER_EMAIL=your_verified_sender@example.com
+```
+
+Brevo offers a free tier (300 emails/day) and will forward all submissions to `osm.gouna@gmail.com`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
