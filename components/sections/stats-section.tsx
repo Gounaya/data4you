@@ -52,10 +52,10 @@ export function StatsSection() {
   const [hovered, setHovered] = useState<number | null>(null)
 
   const stats = [
-    { label: "Consultants experts", value: 40, suffix: "+" },
-    { label: "Années d'expérience", value: 15, suffix: "+" },
-    { label: "Projets réalisés", value: 200, suffix: "+" },
-    { label: "Chiffre d'affaires", value: 800, suffix: "K€" },
+    { label: "Consultants experts", value: 20, suffix: "+" },
+    { label: "Années d'expérience", value: 4, suffix: "+" },
+    { label: "Projets réalisés", value: 50, suffix: "+" },
+    { label: "Chiffre d'affaires", value: 760, suffix: "K€" },
   ]
 
   const principles = [

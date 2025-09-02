@@ -6,7 +6,7 @@ import "leaflet/dist/leaflet.css"
 export const metadata: Metadata = {
   title: "Data4You - Expertise Data, Testing & Dev",
   description:
-    "Data4You, cabinet de 40+ experts qui conçoivent, testent et délivrent des produits fiables, performants et mesurables.",
+    "Data4You, cabinet de 20+ experts qui conçoivent, testent et délivrent des produits fiables, performants et mesurables.",
   keywords: "Data, Testing, Développement, ESN, SSII, Banque, Assurance, Retail, Logistique",
   openGraph: {
     title: "Data4You - Expertise Data, Testing & Dev",
