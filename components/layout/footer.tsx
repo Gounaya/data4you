@@ -62,8 +62,8 @@ export function Footer() {
           <div>
             <h3 className="font-semibold font-serif mb-4">Contact</h3>
             <div className="space-y-2 text-sm text-background/80">
-              <p>06.04.34.34.34</p>
-              <p>contact@data4you.com</p>
+              <p>06.63.47.25.45</p>
+              <p>y.lori@data4you.fr</p>
               <p>
                 1-3, 1 ALLEE LAVOISIER
                 <br />
