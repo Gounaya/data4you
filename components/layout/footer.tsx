@@ -25,7 +25,7 @@ export function Footer() {
               <Image src="/data4you-logo-new.png" alt="Data4You" width={320} height={84} className="h-30 w-auto" />
             </div>
             <p className="text-background/80 mb-6 max-w-md">
-              Expertise Data, Testing & Dev, au service de vos résultats. Cabinet de 40+ experts qui conçoivent, testent
+              Expertise Data, Testing & Dev, au service de vos résultats. Cabinet de 20+ experts qui conçoivent, testent
               et délivrent des produits fiables.
             </p>
             <div className="flex space-x-4">

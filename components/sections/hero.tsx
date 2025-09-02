@@ -55,7 +55,7 @@ export function Hero() {
             <ScrollReveal delay={800} direction="up">
               <div className="text-center group hover:scale-105 transition-all duration-300">
                 <div className="text-3xl font-bold text-primary font-serif group-hover:text-primary/80 transition-colors">
-                  <CounterAnimation end={40} suffix="+" />
+                  <CounterAnimation end={20} suffix="+" />
                 </div>
                 <div className="text-sm text-muted-foreground">Experts</div>
               </div>
@@ -64,7 +64,7 @@ export function Hero() {
             <ScrollReveal delay={1000} direction="up">
               <div className="text-center group hover:scale-105 transition-all duration-300">
                 <div className="text-3xl font-bold text-primary font-serif group-hover:text-primary/80 transition-colors">
-                  <CounterAnimation end={200} suffix="+" />
+                  <CounterAnimation end={50} suffix="+" />
                 </div>
                 <div className="text-sm text-muted-foreground">Projets livrés</div>
               </div>
@@ -73,7 +73,7 @@ export function Hero() {
             <ScrollReveal delay={1200} direction="up">
               <div className="text-center group hover:scale-105 transition-all duration-300">
                 <div className="text-3xl font-bold text-primary font-serif group-hover:text-primary/80 transition-colors">
-                  <CounterAnimation end={800} suffix="k€" />
+                  <CounterAnimation end={760} suffix="k€" />
                 </div>
                 <div className="text-sm text-muted-foreground">Chiffre d'affaires</div>
               </div>
@@ -82,7 +82,7 @@ export function Hero() {
             <ScrollReveal delay={1400} direction="up">
               <div className="text-center group hover:scale-105 transition-all duration-300">
                 <div className="text-3xl font-bold text-primary font-serif group-hover:text-primary/80 transition-colors">
-                  <CounterAnimation end={5} suffix="+" />
+                  <CounterAnimation end={4} suffix="+" />
                 </div>
                 <div className="text-sm text-muted-foreground">Années d'expertise</div>
               </div>
