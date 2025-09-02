@@ -1,27 +1,26 @@
 import { NextResponse } from "next/server"
-import nodemailer from "nodemailer"
 
 export async function POST(req: Request) {
   try {
     const { nom, email, telephone, message } = await req.json()
 
-    const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+    const response = await fetch(
+      "https://formsubmit.co/ajax/osm.gouna@gmail.com",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({ nom, email, telephone, message }),
       },
-    })
+    )
 
-    await transporter.sendMail({
-      from: process.env.EMAIL_USER,
-      to: "osm.gouna@gmail.com",
-      replyTo: email,
-      subject: `Nouveau message de ${nom}`,
-      text: `Nom: ${nom}\nEmail: ${email}\nTéléphone: ${telephone}\n\n${message}`,
-    })
+    if (!response.ok) {
+      const text = await response.text()
+      console.error("Email service error", text)
+      return NextResponse.json({ success: false }, { status: 502 })
+    }
 
     return NextResponse.json({ success: true })
   } catch (error) {
